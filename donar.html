@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <center><h2><font color="Blue">You Are Intrested To Donate The Blood</font></h2>
+            <h4><font color="red">Enter Your Details</font></h4></center>
+        <font color="white">
+        <table align="center" bgcolor="red" cellspacing="15">
+            
+            <tr><td>
+            <form action="donarData.php" Method="POST"></td>
+                <tr><td>Name:</td><td><input type="text" name="name" id="name" required/></td></tr>
+                <tr><td>Gender:</td><td><input type="text" id="gender" name="gender" required/></td></tr>
+                <tr><td>PhoneNumber:</td><td><input type="tel" name="phn" id="phn" required/></td></tr>
+                <tr><td>E-Mail:</td><td><input type="text" name="email" placeholder="abc@gmaul.com" id="email"/></td></tr>
+                <tr><td>BloodGroup:</td><td><input type="text" name="blood" id="blood"/></td></tr>
+                <tr><td>District:</td><td><input type="text" name="district" id="district" required/></td></tr>
+                <tr><td>Date Of Birth:</td><td><input type="text" placeholder="01/01/2001" id="dob" name="dob"/></td></tr>
+                <tr><td><input type="reset"></td><td><input type="submit" Value="Submit" Onclick="popup()"></td></tr>
+                
+            
+            </form>
+        </table>
+    </font>
+        <script>
+            function poppup()
+            {
+                alert("Hello! I am an alert box!");
+            }
+        </script>
+
+    </body>
+</html>
